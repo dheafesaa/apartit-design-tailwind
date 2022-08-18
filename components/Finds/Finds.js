@@ -28,7 +28,7 @@ const Finds = () => {
             <Image className="w-full h-full" src={pict2} alt="CatWikiLg" />
             <div className="flex flex-row absolute w-full px-10 self-end justify-between pb-16">
               <div className="text-[28px] font-semibold text-white w-72 tracking-[4%]">
-              Modern Comfortable Apartment
+                Modern Comfortable Apartment
               </div>
               <div className="flex py-4">
                 <button className="bg-[#FC650B] px-6 py-3 text-white text-base font-semibold tracking-wider">

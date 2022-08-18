@@ -14,15 +14,15 @@ const Header = () => {
               <div className="text-black">it.</div>
             </div>
           </div>
-          <div className="w-auto">
+          <div className="w-auto hidden sm:block">
             <div className="flex flex-row justify-between w-[716px]">
-              <div className="flex justify-between w-[537px] text-sm font-medium tracking-wider items-center">
-                <div className="text-[#FC650B]">Home</div>
-                <div className="text-[#777777]">About</div>
-                <div className="text-[#777777]">How it Works</div>
-                <div className="text-[#777777]">FAQ</div>
-                <div className="text-[#777777]">Contact US</div>
-              </div>
+              <ul className="flex justify-between w-[537px] text-sm font-medium tracking-wider items-center">
+                <li className="text-[#FC650B]">Home</li>
+                <li className="text-[#777777]">About</li>
+                <li className="text-[#777777]">How it Works</li>
+                <li className="text-[#777777]">FAQ</li>
+                <li className="text-[#777777]">Contact US</li>
+              </ul>
               <div className="bg-[#FC650B] px-4 py-2 text-white font-semibold text-sm tracking-wider">
                 Get Started
               </div>
